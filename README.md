@@ -2,7 +2,7 @@
 
 A curated list of latest research papers, projects and resources related to Gaussian Splatting. Content is automatically updated daily.
 
-> Last Update: 2025-11-14 00:56:14
+> Last Update: 2025-11-15 00:54:37
 
 ## 📰 Latest Updates
 
@@ -20,20 +20,20 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ## Categories
 
-- [3DGS Surveys](#3dgs-surveys) (12 papers) - Survey papers and benchmarks about 3D Gaussian Splatting
-- [Acceleration](#acceleration) (327 papers) - Papers about speeding up rendering or training
-- [Applications](#applications) (993 papers) - Papers about specific applications
-- [Avatar Generation](#avatar-generation) (347 papers) - Papers about human avatar generation
-- [Dynamic Scene](#dynamic-scene) (360 papers) - Papers about dynamic scene reconstruction and rendering
-- [Few-shot](#few-shot) (70 papers) - Papers about few-shot or sparse view reconstruction
-- [Geometry Reconstruction](#geometry-reconstruction) (323 papers) - Papers about 3D geometry reconstruction
-- [Large Scene](#large-scene) (67 papers) - Papers about large-scale scene reconstruction
-- [Model Compression](#model-compression) (428 papers) - Papers about model compression and optimization
-- [Quality Enhancement](#quality-enhancement) (160 papers) - Papers focusing on improving rendering quality
-- [Ray Tracing](#ray-tracing) (24 papers) - Papers about ray tracing and ray casting in Gaussian Splatting
-- [Relighting](#relighting) (107 papers) - Papers about relighting and illumination effects in Gaussian Splatting
-- [SLAM](#slam) (137 papers) - Papers about SLAM using Gaussian Splatting
-- [Scene Understanding](#scene-understanding) (166 papers) - Papers about scene understanding and semantic analysis
+- [3DGS Surveys](#3dgs-surveys) (23 papers) - Survey papers and benchmarks about 3D Gaussian Splatting
+- [Acceleration](#acceleration) (260 papers) - Papers about speeding up rendering or training
+- [Applications](#applications) (996 papers) - Papers about specific applications
+- [Avatar Generation](#avatar-generation) (340 papers) - Papers about human avatar generation
+- [Dynamic Scene](#dynamic-scene) (398 papers) - Papers about dynamic scene reconstruction and rendering
+- [Few-shot](#few-shot) (74 papers) - Papers about few-shot or sparse view reconstruction
+- [Geometry Reconstruction](#geometry-reconstruction) (325 papers) - Papers about 3D geometry reconstruction
+- [Large Scene](#large-scene) (75 papers) - Papers about large-scale scene reconstruction
+- [Model Compression](#model-compression) (404 papers) - Papers about model compression and optimization
+- [Quality Enhancement](#quality-enhancement) (182 papers) - Papers focusing on improving rendering quality
+- [Ray Tracing](#ray-tracing) (15 papers) - Papers about ray tracing and ray casting in Gaussian Splatting
+- [Relighting](#relighting) (119 papers) - Papers about relighting and illumination effects in Gaussian Splatting
+- [SLAM](#slam) (139 papers) - Papers about SLAM using Gaussian Splatting
+- [Scene Understanding](#scene-understanding) (199 papers) - Papers about scene understanding and semantic analysis
 
 
 
@@ -53,629 +53,629 @@ A curated list of latest research papers, projects and resources related to Gaus
 
 ### 3DGS Surveys
 
-- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/2510.23988v1)**  
   Authors: Phuc Nguyen Xuan, Thanh Nguyen Canh, Huu-Hung Nguyen, Nak Young Chong, Xiem HoangVan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, high-fidelity, survey, 3d gaussian, ar, semantic, robotics, localization, slam, mapping  
-- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.23988v1.pdf)  
+  Keywords: ar, robotics, localization, high-fidelity, 3d gaussian, slam, survey, efficient, mapping, gaussian splatting, semantic  
+- **[Advances in 4D Representation: Geometry, Motion, and Interaction](https://arxiv.org/abs/2510.19255v1)**  
+  Authors: Mingrui Zhao, Sauradip Nag, Kai Wang, Aditya Vora, Guangda Ji, Peter Chun, Ali Mahdavi-Amiri, Hao Zhang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.19255v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://mingrui-zhao.github.io/4DRep-GMI/)  
+  Keywords: ar, geometry, 3d gaussian, 4d, survey, motion, gaussian splatting, fast, nerf  
+- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/2510.18101v1)**  
   Authors: Vitor Pereira Matias, Daniel Perazzo, Vinicius Silva, Alberto Raposo, Luiz Velho, Afonso Paiva, Tiago Novello  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, face, survey, 3d gaussian, efficient rendering, ar, real-time rendering, avatar, animation, lighting  
-- **[A Study of the Framework and Real-World Applications of Language Embedding for 3D Scene Understanding](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.18101v1.pdf)  
+  Keywords: ar, 3d reconstruction, face, efficient rendering, 3d gaussian, lighting, survey, efficient, animation, avatar, gaussian splatting, real-time rendering  
+- **[Vision Language Models: A Survey of 26K Papers](https://arxiv.org/abs/2510.09586v1)**  
+  Authors: Fengming Lin  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.09586v1.pdf)  
+  Keywords: ar, survey, efficient, understanding, gaussian splatting, human, lightweight, nerf  
+- **[From Fields to Splats: A Cross-Domain Survey of Real-Time Neural Scene Representations](https://arxiv.org/abs/2509.23555v1)**  
+  Authors: Javed Ahmad, Penggang Gao, Donatien Delehelle, Mennuti Canio, Nikhil Deshpande, Jesús Ortiz, Darwin G. Caldwell, Yonas Teodros Tefera  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.23555v1.pdf)  
+  Keywords: ar, 3d gaussian, slam, survey, efficient, neural rendering, understanding, gaussian splatting, fast, nerf  
+- **[A-TDOM: Active TDOM via On-the-Fly 3DGS](https://arxiv.org/abs/2509.12759v2)**  
+  Authors: Yiwei Xu, Xiang Wang, Yifei Yu, Wentian Gan, Luca Morelli, Giulio Perda, Xiongwu Xiao, Zongqian Zhan, Xin Wang, Fabio Remondino  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.12759v2.pdf)  
+  Keywords: ar, face, survey  
+- **[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977v2)**  
+  Authors: Shuting He, Peilin Ji, Yitong Yang, Changshuo Wang, Jiayi Ji, Yinglin Wang, Henghui Ding  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.09977v2.pdf)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, lighting, survey, understanding, gaussian splatting, compact, semantic, nerf  
+- **[A Study of the Framework and Real-World Applications of Language Embedding for 3D Scene Understanding](https://arxiv.org/abs/2508.05064v2)**  
   Authors: Mahmoud Chick Zaouali, Todd Charter, Yehor Karpichev, Brandon Haworth, Homayoun Najjaran  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, survey, 3d gaussian, ar, understanding, semantic, nerf, robotics  
-- **[Is Semantic SLAM Ready for Embedded Systems ? A Comparative Survey](https://arxiv.org/abs/)**  
-  Authors: Calvin Galagain, Martyna Poreba, François Goulette  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, efficient, survey, 3d gaussian, ar, semantic, nerf, localization, slam, mapping  
-- **[UltraGauss: Ultrafast Gaussian Reconstruction of 3D Ultrasound Volumes](https://arxiv.org/abs/)**  
-  Authors: Mark C. Eid, Ana I. L. Namburete, João F. Henriques  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, survey, fast, ar  
-- **[Digital Twin Generation from Visual Data: A Survey](https://arxiv.org/abs/)**  
-  Authors: Andrew Melnik, Benjamin Alt, Giang Nguyen, Artur Wilkowski, Maciej Stefańczyk, Qirui Wu, Sinan Harms, Helge Rhodin, Manolis Savva, Michael Beetz  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, survey, 3d gaussian, ar, semantic, robotics, lighting  
-- **[Dynamic Scene Reconstruction: Recent Advance in Real-time Rendering and Streaming](https://arxiv.org/abs/)**  
-  Authors: Jiaxuan Zhu, Hao Tang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, survey, 3d gaussian, dynamic, ar, real-time rendering  
-- **[3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/)**  
-  Authors: Yanqi Bao, Tianyu Ding, Jing Huo, Yaoli Liu, Yuxin Li, Wenbin Li, Yang Gao, Jiebo Luo  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, survey, 3d gaussian, ar, understanding, real-time rendering  
-- **[Survey on Fundamental Deep Learning 3D Reconstruction Techniques](https://arxiv.org/abs/)**  
-  Authors: Yonge Bai, LikHang Wong, TszYin Twan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, 3d reconstruction, survey, 3d gaussian, ar, nerf, lighting  
-- **[Recent Advances in 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Tong Wu, Yu-Jie Yuan, Ling-Xiao Zhang, Jie Yang, Yan-Pei Cao, Ling-Qi Yan, Lin Gao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, efficient, survey, 3d gaussian, fast, dynamic, efficient rendering, understanding, ar, nerf  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.05064v2.pdf)  
+  Keywords: ar, robotics, 3d gaussian, survey, efficient, understanding, gaussian splatting, semantic, nerf  
+- **[Radiance Fields in XR: A Survey on How Radiance Fields are Envisioned and Addressed for XR Research](https://arxiv.org/abs/2508.04326v2)**  
+  Authors: Ke Li, Mana Masuda, Susanne Schmidt, Shohei Mori  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.04326v2.pdf)  
+  Keywords: ar, robotics, 3d gaussian, survey, gaussian splatting, human, nerf  
+- **[Sparse-View 3D Reconstruction: Recent Advances and Open Challenges](https://arxiv.org/abs/2507.16406v1)**  
+  Authors: Tanveer Younis, Zhanglin Cheng  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2507.16406v1.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, robotics, vr, 3d gaussian, survey, motion, gaussian splatting, nerf, sparse-view  
 
 ### Acceleration
 
-*Showing the latest 50 out of 327 papers*
+*Showing the latest 50 out of 260 papers*
 
-- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/)**  
+- **[YoNoSplat: You Only Need One Model for Feedforward 3D Gaussian Splatting](https://arxiv.org/abs/2511.07321v1)**  
+  Authors: Botao Ye, Boqi Chen, Haofei Xu, Daniel Barath, Marc Pollefeys  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07321v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://botaoye.github.io/yonosplat/.)  
+  Keywords: fast, ar, gaussian splatting, 3d gaussian  
+- **[GFix: Perceptually Enhanced Gaussian Splatting Video Compression](https://arxiv.org/abs/2511.06953v1)**  
+  Authors: Siyue Teng, Ge Gao, Duolikun Danier, Yuxuan Jiang, Fan Zhang, Thomas Davis, Zoe Liu, David Bull  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06953v1.pdf)  
+  Keywords: ar, 3d gaussian, efficient, gaussian splatting, quality enhancement, fast, compression  
+- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/2511.06810v1)**  
   Authors: Bartłomiej Baranowski, Stefano Esposito, Patricia Gschoßmann, Anpei Chen, Andreas Geiger  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, geometry, 3d gaussian, fast, ar  
-- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06810v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, efficient, gaussian splatting, fast  
+- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/2511.04951v1)**  
   Authors: Hexu Zhao, Xiwen Min, Xiaoteng Liu, Moonjun Gong, Yiming Li, Ang Li, Saining Xie, Jinyang Li, Aurojit Panda  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, 3d gaussian, fast, ar, head, large scene  
-- **[3D Gaussian Point Encoders](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04951v1.pdf)  
+  Keywords: ar, large scene, 3d gaussian, head, gaussian splatting, fast  
+- **[3D Gaussian Point Encoders](https://arxiv.org/abs/2511.04797v1)**  
   Authors: Jim James, Ben Wilson, Simon Lucey, James Hays  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, efficient, recognition, 3d gaussian, fast, ar, nerf, lightweight  
-- **[4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Guassian Splatting](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04797v1.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, recognition, 3d gaussian, efficient, gaussian splatting, fast, lightweight, nerf  
+- **[FastGS: Training 3D Gaussian Splatting in 100 Seconds](https://arxiv.org/abs/2511.04283v1)**  
+  Authors: Shiwei Ren, Tianci Wen, Yongchun Fang, Biao Lu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04283v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://fastgs.github.io/)  
+  Keywords: ar, acceleration, dynamic, face, localization, 3d gaussian, head, efficient, mapping, gaussian splatting, fast, nerf, sparse-view  
+- **[4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Guassian Splatting](https://arxiv.org/abs/2511.00560v1)**  
   Authors: Chun-Tin Wu, Jun-Cheng Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, compact, efficient, 3d gaussian, fast, dynamic, 4d, efficient rendering, ar, real-time rendering, head  
-- **[SAGS: Self-Adaptive Alias-Free Gaussian Splatting for Dynamic Surgical Endoscopic Reconstruction](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.00560v1.pdf)  
+  Keywords: ar, dynamic, deformation, fast, efficient rendering, 3d gaussian, 4d, head, efficient, gaussian splatting, compact, real-time rendering  
+- **[SAGS: Self-Adaptive Alias-Free Gaussian Splatting for Dynamic Surgical Endoscopic Reconstruction](https://arxiv.org/abs/2510.27318v1)**  
   Authors: Wenfeng Huang, Xiangyun Liao, Yinling Qian, Hao Liu, Yongming Yang, Wenjing Jia, Qiong Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, 3d gaussian, fast, dynamic, 4d, ar, nerf  
-- **[Explicit Memory through Online 3D Gaussian Splatting Improves Class-Agnostic Video Segmentation](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.27318v1.pdf)  
+  Keywords: ar, dynamic, deformation, 3d gaussian, 4d, gaussian splatting, fast, nerf  
+- **[Explicit Memory through Online 3D Gaussian Splatting Improves Class-Agnostic Video Segmentation](https://arxiv.org/abs/2510.23521v1)**  
   Authors: Anthony Opipari, Aravindhan K Krishnan, Shreekant Gayaka, Min Sun, Cheng-Hao Kuo, Arnie Sen, Odest Chadwicke Jenkins  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://topipari.com/projects/FastSAM-Splat/)  
-  Keywords: segmentation, gaussian splatting, 3d gaussian, fast, ar  
-- **[DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.23521v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://topipari.com/projects/FastSAM-Splat/)  
+  Keywords: ar, segmentation, 3d gaussian, gaussian splatting, fast  
+- **[DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum](https://arxiv.org/abs/2510.22213v1)**  
   Authors: Yaokun Li, Lihe Ding, Xiao Chen, Guang Tan, Tianfan Xue  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, compact, face, 3d gaussian, fast, dynamic, 4d, ar, semantic, animation, motion  
-- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/)**  
-  Authors: Vitor Pereira Matias, Daniel Perazzo, Vinicius Silva, Alberto Raposo, Luiz Velho, Afonso Paiva, Tiago Novello  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, face, survey, 3d gaussian, efficient rendering, ar, real-time rendering, avatar, animation, lighting  
-- **[ArchitectHead: Continuous Level of Detail Control for 3D Gaussian Head Avatars](https://arxiv.org/abs/)**  
-  Authors: Peizhi Yan, Rabab Ward, Qiang Tang, Shan Du  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d gaussian, dynamic, ar, real-time rendering, lightweight, head, avatar  
-- **[Optimized Minimal 4D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Minseo Lee, Byeonghyeon Lee, Lucas Yunkyu Lee, Eunsoo Lee, Sangmin Kim, Seunghyeon Song, Joo Chan Lee, Jong Hwan Ko, Jaesik Park, Eunbyung Park  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://minshirley.github.io/OMG4/.)  
-  Keywords: gaussian splatting, high-fidelity, compression, compact, face, dynamic, 4d, ar, real-time rendering, head, motion  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.22213v1.pdf)  
+  Keywords: ar, dynamic, face, 4d, 3d gaussian, animation, motion, gaussian splatting, compact, semantic, fast  
 
 ### Applications
 
-*Showing the latest 50 out of 993 papers*
+*Showing the latest 50 out of 996 papers*
 
-- **[UltraGS: Gaussian Splatting for Ultrasound Novel View Synthesis](https://arxiv.org/abs/)**  
-  Authors: Yuezhe Yang, Wenjie Cai, Dexin Yang, Yufang Dong, Xingbo Dong, Zhe Jin  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: ar, lightweight, reflection, gaussian splatting  
-- **[SkelSplat: Robust Multi-view 3D Human Pose Estimation with Differentiable Gaussian Rendering](https://arxiv.org/abs/)**  
+- **[Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision](https://arxiv.org/abs/2511.10316v1)**  
+  Authors: Yu Deng, Baozhu Zhao, Junyan Su, Xiaohan Zhang, Qi Liu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.10316v1.pdf)  
+  Keywords: ar, gaussian splatting, 3d gaussian  
+- **[TSPE-GS: Probabilistic Depth Extraction for Semi-Transparent Surface Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.09944v1)**  
+  Authors: Zhiyuan Xu, Nan Min, Yuhang Guo, Tong Wei  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09944v1.pdf)  
+  Keywords: ar, geometry, face, head, 3d gaussian, gaussian splatting  
+- **[AHA! Animating Human Avatars in Diverse Scenes with Gaussian Splatting](https://arxiv.org/abs/2511.09827v1)**  
+  Authors: Aymen Mir, Jian Wang, Riza Alp Guler, Chuan Guo, Gerard Pons-Moll, Bing Zhou  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09827v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, animation, avatar, motion, gaussian splatting, human  
+- **[A Shared-Autonomy Construction Robotic System for Overhead Works](https://arxiv.org/abs/2511.09695v1)**  
+  Authors: David Minkwan Kim, K. M. Brian Lee, Yong Hyeok Seo, Nikola Raicevic, Runfa Blark Li, Kehan Long, Chan Seon Yoon, Dong Min Kang, Byeong Jo Lim, Young Pyoung Kim, Nikolay Atanasov, Truong Nguyen, Se Woong Jun, Young Wook Kim  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09695v1.pdf)  
+  Keywords: ar, 3d reconstruction, dynamic, head, motion, gaussian splatting  
+- **[OUGS: Active View Selection via Object-aware Uncertainty Estimation in 3DGS](https://arxiv.org/abs/2511.09397v1)**  
+  Authors: Haiyi Li, Qi Chen, Denis Kalkofen, Hsiang-Ting Chen  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09397v1.pdf)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, semantic  
+- **[SkelSplat: Robust Multi-view 3D Human Pose Estimation with Differentiable Gaussian Rendering](https://arxiv.org/abs/2511.08294v1)**  
   Authors: Laura Bragagnolo, Leonardo Barcellona, Stefano Ghidoni  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://skelsplat.github.io.)  
-  Keywords: ar, 3d gaussian, gaussian splatting, human  
-- **[Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Changyue Shi, Chuxiao Yang, Xinyuan Hu, Minghao Chen, Wenwen Pan, Yan Yang, Jiajun Ding, Zhou Yu, Jun Yu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, few-shot, gaussian splatting, dynamic, 4d, ar, nerf  
-- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/)**  
-  Authors: Bartłomiej Baranowski, Stefano Esposito, Patricia Gschoßmann, Anpei Chen, Andreas Geiger  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, geometry, 3d gaussian, fast, ar  
-- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/)**  
-  Authors: Haoqin Hong, Ding Fan, Fubin Dou, Zhi-Li Zhou, Haoran Sun, Congcong Zhu, Jingrun Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, ar, motion  
-- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/)**  
-  Authors: Mengqi Guo, Bo Xu, Yanyan Li, Gim Hee Lee  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, neural rendering, ar, nerf, motion  
-- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Hexu Zhao, Xiwen Min, Xiaoteng Liu, Moonjun Gong, Yiming Li, Ang Li, Saining Xie, Jinyang Li, Aurojit Panda  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, 3d gaussian, fast, ar, head, large scene  
-- **[3D Gaussian Point Encoders](https://arxiv.org/abs/)**  
-  Authors: Jim James, Ben Wilson, Simon Lucey, James Hays  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, efficient, recognition, 3d gaussian, fast, ar, nerf, lightweight  
-- **[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/)**  
-  Authors: Yuwen Tao, Kanglei Zhou, Xin Tan, Yuan Xie  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, geometry, 3d gaussian, ar, understanding, vr  
-- **[4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Guassian Splatting](https://arxiv.org/abs/)**  
-  Authors: Chun-Tin Wu, Jun-Cheng Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, compact, efficient, 3d gaussian, fast, dynamic, 4d, efficient rendering, ar, real-time rendering, head  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.08294v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://skelsplat.github.io.)  
+  Keywords: ar, gaussian splatting, 3d gaussian, human  
+- **[Perceptual Quality Assessment of 3D Gaussian Splatting: A Subjective Dataset and Prediction Metric](https://arxiv.org/abs/2511.08032v1)**  
+  Authors: Zhaolin Wan, Yining Diao, Jingqi Xu, Hao Wang, Zhiyang Li, Xiaopeng Fan, Wangmeng Zuo, Debin Zhao  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.08032v1.pdf)  
+  Keywords: ar, high-fidelity, 3d gaussian, lighting, gaussian splatting  
+- **[UltraGS: Gaussian Splatting for Ultrasound Novel View Synthesis](https://arxiv.org/abs/2511.07743v1)**  
+  Authors: Yuezhe Yang, Wenjie Cai, Dexin Yang, Yufang Dong, Xingbo Dong, Zhe Jin  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07743v1.pdf)  
+  Keywords: lightweight, ar, reflection, gaussian splatting  
+- **[YoNoSplat: You Only Need One Model for Feedforward 3D Gaussian Splatting](https://arxiv.org/abs/2511.07321v1)**  
+  Authors: Botao Ye, Boqi Chen, Haofei Xu, Daniel Barath, Marc Pollefeys  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07321v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://botaoye.github.io/yonosplat/.)  
+  Keywords: fast, ar, gaussian splatting, 3d gaussian  
+- **[4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation](https://arxiv.org/abs/2511.07241v1)**  
+  Authors: Mengmeng Liu, Jiuming Liu, Yunpeng Zhang, Jiangtao Li, Michael Ying Yang, Francesco Nex, Hao Cheng  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07241v1.pdf)  
+  Keywords: ar, dynamic, 4d, gaussian splatting  
 
 ### Avatar Generation
 
-*Showing the latest 50 out of 347 papers*
+*Showing the latest 50 out of 340 papers*
 
-- **[SkelSplat: Robust Multi-view 3D Human Pose Estimation with Differentiable Gaussian Rendering](https://arxiv.org/abs/)**  
+- **[TSPE-GS: Probabilistic Depth Extraction for Semi-Transparent Surface Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.09944v1)**  
+  Authors: Zhiyuan Xu, Nan Min, Yuhang Guo, Tong Wei  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09944v1.pdf)  
+  Keywords: ar, geometry, face, head, 3d gaussian, gaussian splatting  
+- **[AHA! Animating Human Avatars in Diverse Scenes with Gaussian Splatting](https://arxiv.org/abs/2511.09827v1)**  
+  Authors: Aymen Mir, Jian Wang, Riza Alp Guler, Chuan Guo, Gerard Pons-Moll, Bing Zhou  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09827v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, animation, avatar, motion, gaussian splatting, human  
+- **[A Shared-Autonomy Construction Robotic System for Overhead Works](https://arxiv.org/abs/2511.09695v1)**  
+  Authors: David Minkwan Kim, K. M. Brian Lee, Yong Hyeok Seo, Nikola Raicevic, Runfa Blark Li, Kehan Long, Chan Seon Yoon, Dong Min Kang, Byeong Jo Lim, Young Pyoung Kim, Nikolay Atanasov, Truong Nguyen, Se Woong Jun, Young Wook Kim  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09695v1.pdf)  
+  Keywords: ar, 3d reconstruction, dynamic, head, motion, gaussian splatting  
+- **[SkelSplat: Robust Multi-view 3D Human Pose Estimation with Differentiable Gaussian Rendering](https://arxiv.org/abs/2511.08294v1)**  
   Authors: Laura Bragagnolo, Leonardo Barcellona, Stefano Ghidoni  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://skelsplat.github.io.)  
-  Keywords: ar, 3d gaussian, gaussian splatting, human  
-- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.08294v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://skelsplat.github.io.)  
+  Keywords: ar, gaussian splatting, 3d gaussian, human  
+- **[MUGSQA: Novel Multi-Uncertainty-Based Gaussian Splatting Quality Assessment Method, Dataset, and Benchmarks](https://arxiv.org/abs/2511.06830v1)**  
+  Authors: Tianang Chen, Jian Jin, Shilv Cai, Zhuangzi Li, Weisi Lin  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06830v1.pdf)  
+  Keywords: ar, gaussian splatting, human  
+- **[DIAL-GS: Dynamic Instance Aware Reconstruction for Label-free Street Scenes with 4D Gaussian Splatting](https://arxiv.org/abs/2511.06632v1)**  
+  Authors: Chenpeng Su, Wenhua Wu, Chensheng Peng, Tianchen Deng, Zhe Liu, Hesheng Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06632v1.pdf)  
+  Keywords: ar, dynamic, urban scene, 4d, gaussian splatting, human, autonomous driving  
+- **[StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video](https://arxiv.org/abs/2511.06046v1)**  
+  Authors: Zhihui Ke, Yuyang Liu, Xiaobo Zhou, Tie Qiu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06046v1.pdf)  
+  Keywords: ar, dynamic, deformation, face, 3d gaussian, motion, gaussian splatting, compression  
+- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/2511.04951v1)**  
   Authors: Hexu Zhao, Xiwen Min, Xiaoteng Liu, Moonjun Gong, Yiming Li, Ang Li, Saining Xie, Jinyang Li, Aurojit Panda  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, 3d gaussian, fast, ar, head, large scene  
-- **[4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Guassian Splatting](https://arxiv.org/abs/)**  
-  Authors: Chun-Tin Wu, Jun-Cheng Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, compact, efficient, 3d gaussian, fast, dynamic, 4d, efficient rendering, ar, real-time rendering, head  
-- **[AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](https://arxiv.org/abs/)**  
-  Authors: Xiyu Zhang, Chong Bao, Yipeng Chen, Hongjia Zhai, Yitong Dong, Hujun Bao, Zhaopeng Cui, Guofeng Zhang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, face, 3d reconstruction, ar, semantic, urban scene  
-- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/)**  
-  Authors: Wenkai Zhu, Xu Li, Qimin Xu, Benwu Wang, Kun Wei, Yiming Peng, Zihang Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, high-fidelity, outdoor, 3d gaussian, dynamic, ar, human, slam, mapping  
-- **[DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum](https://arxiv.org/abs/)**  
-  Authors: Yaokun Li, Lihe Ding, Xiao Chen, Guang Tan, Tianfan Xue  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, compact, face, 3d gaussian, fast, dynamic, 4d, ar, semantic, animation, motion  
-- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/)**  
-  Authors: Vitor Pereira Matias, Daniel Perazzo, Vinicius Silva, Alberto Raposo, Luiz Velho, Afonso Paiva, Tiago Novello  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, face, survey, 3d gaussian, efficient rendering, ar, real-time rendering, avatar, animation, lighting  
-- **[2DGS-R: Revisiting the Normal Consistency Regularization in 2D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Haofan Ren, Qingsong Yan, Ming Lu, Rongfeng Lu, Zunjie Zhu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, face, 3d gaussian, ar, head, lighting  
-- **[Leveraging Learned Image Prior for 3D Gaussian Compression](https://arxiv.org/abs/)**  
-  Authors: Seungjoo Shin, Jaesik Park, Sunghyun Cho  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, compression, compact, 3d gaussian, ar, head  
-- **[Instant Skinned Gaussian Avatars for Web, Mobile and VR Applications](https://arxiv.org/abs/)**  
-  Authors: Naruya Kondo, Yuto Asano, Yoichi Ochiai  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://gaussian-vrm.github.io/)  
-  Keywords: gaussian splatting, efficient, dynamic, ar, lightweight, vr, avatar  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04951v1.pdf)  
+  Keywords: ar, large scene, 3d gaussian, head, gaussian splatting, fast  
+- **[Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions](https://arxiv.org/abs/2511.04665v2)**  
+  Authors: Kaifeng Zhang, Shuo Sha, Hanxiao Jiang, Matthew Loper, Hyunjong Song, Guangyan Cai, Zhuo Xu, Xiaochen Hu, Changxi Zheng, Yunzhu Li  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04665v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://real2sim-eval.github.io/)  
+  Keywords: ar, gaussian splatting, 3d gaussian, body  
+- **[FastGS: Training 3D Gaussian Splatting in 100 Seconds](https://arxiv.org/abs/2511.04283v1)**  
+  Authors: Shiwei Ren, Tianci Wen, Yongchun Fang, Biao Lu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04283v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://fastgs.github.io/)  
+  Keywords: ar, acceleration, dynamic, face, localization, 3d gaussian, head, efficient, mapping, gaussian splatting, fast, nerf, sparse-view  
 
 ### Dynamic Scene
 
-*Showing the latest 50 out of 360 papers*
+*Showing the latest 50 out of 398 papers*
 
-- **[Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](https://arxiv.org/abs/)**  
+- **[AHA! Animating Human Avatars in Diverse Scenes with Gaussian Splatting](https://arxiv.org/abs/2511.09827v1)**  
+  Authors: Aymen Mir, Jian Wang, Riza Alp Guler, Chuan Guo, Gerard Pons-Moll, Bing Zhou  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09827v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, animation, avatar, motion, gaussian splatting, human  
+- **[A Shared-Autonomy Construction Robotic System for Overhead Works](https://arxiv.org/abs/2511.09695v1)**  
+  Authors: David Minkwan Kim, K. M. Brian Lee, Yong Hyeok Seo, Nikola Raicevic, Runfa Blark Li, Kehan Long, Chan Seon Yoon, Dong Min Kang, Byeong Jo Lim, Young Pyoung Kim, Nikolay Atanasov, Truong Nguyen, Se Woong Jun, Young Wook Kim  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09695v1.pdf)  
+  Keywords: ar, 3d reconstruction, dynamic, head, motion, gaussian splatting  
+- **[4DSTR: Advancing Generative 4D Gaussians with Spatial-Temporal Rectification for High-Quality and Consistent 4D Generation](https://arxiv.org/abs/2511.07241v1)**  
+  Authors: Mengmeng Liu, Jiuming Liu, Yunpeng Zhang, Jiangtao Li, Michael Ying Yang, Francesco Nex, Hao Cheng  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07241v1.pdf)  
+  Keywords: ar, dynamic, 4d, gaussian splatting  
+- **[Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](https://arxiv.org/abs/2511.07122v1)**  
   Authors: Changyue Shi, Chuxiao Yang, Xinyuan Hu, Minghao Chen, Wenwen Pan, Yan Yang, Jiajun Ding, Zhou Yu, Jun Yu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, few-shot, gaussian splatting, dynamic, 4d, ar, nerf  
-- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07122v1.pdf)  
+  Keywords: ar, dynamic, deformation, 4d, few-shot, gaussian splatting, nerf  
+- **[Rethinking Rainy 3D Scene Reconstruction via Perspective Transforming and Brightness Tuning](https://arxiv.org/abs/2511.06734v1)**  
+  Authors: Qianfeng Yang, Xiang Chen, Pengpeng Li, Qiyuan Guan, Guiyue Jin, Jiyu Jin  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06734v1.pdf)  
+  Keywords: ar, dynamic, vr, high-fidelity, 3d gaussian, gaussian splatting  
+- **[DIAL-GS: Dynamic Instance Aware Reconstruction for Label-free Street Scenes with 4D Gaussian Splatting](https://arxiv.org/abs/2511.06632v1)**  
+  Authors: Chenpeng Su, Wenhua Wu, Chensheng Peng, Tianchen Deng, Zhe Liu, Hesheng Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06632v1.pdf)  
+  Keywords: ar, dynamic, urban scene, 4d, gaussian splatting, human, autonomous driving  
+- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/2511.06299v2)**  
   Authors: Haoqin Hong, Ding Fan, Fubin Dou, Zhi-Li Zhou, Haoran Sun, Congcong Zhu, Jingrun Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, ar, motion  
-- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06299v2.pdf)  
+  Keywords: ar, geometry, dynamic, 4d, 3d gaussian, efficient, motion, gaussian splatting  
+- **[StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video](https://arxiv.org/abs/2511.06046v1)**  
+  Authors: Zhihui Ke, Yuyang Liu, Xiaobo Zhou, Tie Qiu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06046v1.pdf)  
+  Keywords: ar, dynamic, deformation, face, 3d gaussian, motion, gaussian splatting, compression  
+- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2511.05229v1)**  
   Authors: Mengqi Guo, Bo Xu, Yanyan Li, Gim Hee Lee  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, neural rendering, ar, nerf, motion  
-- **[4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Guassian Splatting](https://arxiv.org/abs/)**  
-  Authors: Chun-Tin Wu, Jun-Cheng Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, compact, efficient, 3d gaussian, fast, dynamic, 4d, efficient rendering, ar, real-time rendering, head  
-- **[SAGS: Self-Adaptive Alias-Free Gaussian Splatting for Dynamic Surgical Endoscopic Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Wenfeng Huang, Xiangyun Liao, Yinling Qian, Hao Liu, Yongming Yang, Wenjing Jia, Qiong Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, 3d gaussian, fast, dynamic, 4d, ar, nerf  
-- **[6D Channel Knowledge Map Construction via Bidirectional Wireless Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Juncong Zhou, Chao Hu, Guanlin Wu, Zixiang Ren, Han Hu, Juyong Zhang, Rui Zhang, Jie Xu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: ar, gaussian splatting, dynamic  
-- **[HEIR: Learning Graph-Based Motion Hierarchies](https://arxiv.org/abs/)**  
-  Authors: Cheng Zheng, William Koch, Baiang Li, Felix Heide  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://light.princeton.edu/HEIR/)  
-  Keywords: deformation, gaussian splatting, 3d gaussian, dynamic, ar, robotics, motion  
-- **[DynaPose4D: High-Quality 4D Dynamic Content Generation via Pose Alignment Loss](https://arxiv.org/abs/)**  
-  Authors: Jing Yang, Yufeng Yang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d gaussian, dynamic, 4d, ar, animation, motion  
-- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/)**  
-  Authors: Wenkai Zhu, Xu Li, Qimin Xu, Benwu Wang, Kun Wei, Yiming Peng, Zihang Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, high-fidelity, outdoor, 3d gaussian, dynamic, ar, human, slam, mapping  
-- **[DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum](https://arxiv.org/abs/)**  
-  Authors: Yaokun Li, Lihe Ding, Xiao Chen, Guang Tan, Tianfan Xue  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, compact, face, 3d gaussian, fast, dynamic, 4d, ar, semantic, animation, motion  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05229v1.pdf)  
+  Keywords: segmentation, geometry, dynamic, deformation, ar, 3d gaussian, 4d, efficient, neural rendering, motion, gaussian splatting, nerf  
+- **[Splatography: Sparse multi-view dynamic Gaussian Splatting for filmmaking challenges](https://arxiv.org/abs/2511.05152v1)**  
+  Authors: Adrian Azzarelli, Nantheera Anantrasirichai, David R Bull  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05152v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://interims-git.github.io/)  
+  Keywords: ar, dynamic, deformation, gaussian splatting  
 
 ### Few-shot
 
-*Showing the latest 50 out of 70 papers*
+*Showing the latest 50 out of 74 papers*
 
-- **[Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](https://arxiv.org/abs/)**  
+- **[Sparse4DGS: 4D Gaussian Splatting for Sparse-Frame Dynamic Scene Reconstruction](https://arxiv.org/abs/2511.07122v1)**  
   Authors: Changyue Shi, Chuxiao Yang, Xinyuan Hu, Minghao Chen, Wenwen Pan, Yan Yang, Jiajun Ding, Zhou Yu, Jun Yu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, few-shot, gaussian splatting, dynamic, 4d, ar, nerf  
-- **[D$^2$GS: Depth-and-Density Guided Gaussian Splatting for Stable and Accurate Sparse-View Reconstruction](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07122v1.pdf)  
+  Keywords: ar, dynamic, deformation, 4d, few-shot, gaussian splatting, nerf  
+- **[FastGS: Training 3D Gaussian Splatting in 100 Seconds](https://arxiv.org/abs/2511.04283v1)**  
+  Authors: Shiwei Ren, Tianci Wen, Yongchun Fang, Biao Lu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04283v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://fastgs.github.io/)  
+  Keywords: ar, acceleration, dynamic, face, localization, 3d gaussian, head, efficient, mapping, gaussian splatting, fast, nerf, sparse-view  
+- **[DentalSplat: Dental Occlusion Novel View Synthesis from Sparse Intra-Oral Photographs](https://arxiv.org/abs/2511.03099v1)**  
+  Authors: Yiyi Miao, Taoyu Wu, Tong Chen, Sihao Li, Ji Jiang, Youpeng Yang, Angelos Stefanidis, Limin Yu, Jionglong Su  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.03099v1.pdf)  
+  Keywords: ar, 3d reconstruction, 3d gaussian, gaussian splatting, sparse view  
+- **[Initialize to Generalize: A Stronger Initialization Pipeline for Sparse-View 3DGS](https://arxiv.org/abs/2510.17479v1)**  
+  Authors: Feng Zhou, Wenkai Guo, Pu Cao, Zhicheng Zhang, Jianqin Yin  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.17479v1.pdf)  
+  Keywords: ar, 3d gaussian, motion, gaussian splatting, sparse view, nerf, sparse-view  
+- **[Opacity-Gradient Driven Density Control for Compact and Efficient Few-Shot 3D Gaussian Splatting](https://arxiv.org/abs/2510.10257v1)**  
+  Authors: Abdelrhman Elrawy, Emad A. Mohammed  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.10257v1.pdf)  
+  Keywords: ar, 3d gaussian, few-shot, efficient, gaussian splatting, compact, lightweight, nerf  
+- **[Gesplat: Robust Pose-Free 3D Reconstruction via Geometry-Guided Gaussian Splatting](https://arxiv.org/abs/2510.10097v2)**  
+  Authors: Jiahui Lu, Haihong Xiao, Xueyan Zhao, Wenxiong Kang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.10097v2.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, 3d gaussian, gaussian splatting, nerf, sparse-view  
+- **[LTGS: Long-Term Gaussian Scene Chronology From Sparse View Updates](https://arxiv.org/abs/2510.09881v1)**  
+  Authors: Minkwan Kim, Seungmin Lee, Junho Kim, Young Min Kim  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.09881v1.pdf)  
+  Keywords: ar, face, few-shot, efficient, gaussian splatting, fast, sparse view, sparse-view  
+- **[D$^2$GS: Depth-and-Density Guided Gaussian Splatting for Stable and Accurate Sparse-View Reconstruction](https://arxiv.org/abs/2510.08566v1)**  
   Authors: Meixi Song, Xin Lin, Dizhe Zhang, Haodong Li, Xiangtai Li, Bo Du, Lu Qi  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://insta360-research-team.github.io/DDGS-website/.)  
-  Keywords: sparse-view, gaussian splatting, high-fidelity, 3d gaussian, sparse view, ar  
-- **[FSFSplatter: Build Surface and Novel Views with Sparse-Views within 2min](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.08566v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://insta360-research-team.github.io/DDGS-website/.)  
+  Keywords: ar, high-fidelity, 3d gaussian, gaussian splatting, sparse view, sparse-view  
+- **[FSFSplatter: Build Surface and Novel Views with Sparse-Views within 2min](https://arxiv.org/abs/2510.02691v2)**  
   Authors: Yibin Zhao, Yihan Pan, Jun Nan, Liwei Chen, Jianjun Yi  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: sparse-view, gaussian splatting, geometry, face, fast, ar, head  
-- **[HART: Human Aligned Reconstruction Transformer](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.02691v2.pdf)  
+  Keywords: ar, geometry, face, head, gaussian splatting, fast, sparse-view  
+- **[HART: Human Aligned Reconstruction Transformer](https://arxiv.org/abs/2509.26621v1)**  
   Authors: Xiyi Chen, Shaofei Wang, Marko Mihajlovic, Taewon Kang, Sergey Prokudin, Ming Lin  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: sparse-view, geometry, ar, human, body  
-- **[OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Atakan Topaloglu, Kunyi Li, Michael Niemeyer, Nassir Navab, A. Murat Tekalp, Federico Tombari  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: sparse-view, gaussian splatting, 3d gaussian, sparse view, ar, nerf  
-- **[SPFSplatV2: Efficient Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views](https://arxiv.org/abs/)**  
-  Authors: Ranran Huang, Krystian Mikolajczyk  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://ranrhuang.github.io/spfsplatv2/.)  
-  Keywords: gaussian splatting, efficient, 3d gaussian, sparse view, ar  
-- **[Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Yi-Hsin Li, Thomas Sikora, Sebastian Knorr, Måarten Sjöström  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: sparse-view, segmentation, gaussian splatting, geometry, 3d gaussian, fast, ar, real-time rendering, motion  
-- **[${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Yuxi Hu, Jun Zhang, Kuangyi Chen, Zhe Zhang, Friedrich Fraundorfer  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, sparse view, ar, lightweight  
-- **[Quantifying and Alleviating Co-Adaptation in Sparse-View 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Kangjie Chen, Yingji Zhong, Zhihao Li, Jiaqi Lin, Youyu Chen, Minghan Qin, Haoqian Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: sparse-view, gaussian splatting, 3d gaussian, ar, understanding, lightweight  
-- **[Toward Human-Robot Teaming: Learning Handover Behaviors from 3D Scenes](https://arxiv.org/abs/)**  
-  Authors: Yuekun Wu, Yik Lung Pang, Andrea Cavallaro, Changjae Oh  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: ar, sparse-view, gaussian splatting, human  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.26621v1.pdf)  
+  Keywords: ar, geometry, body, human, sparse-view  
 
 ### Geometry Reconstruction
 
-*Showing the latest 50 out of 323 papers*
+*Showing the latest 50 out of 325 papers*
 
-- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/)**  
+- **[TSPE-GS: Probabilistic Depth Extraction for Semi-Transparent Surface Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.09944v1)**  
+  Authors: Zhiyuan Xu, Nan Min, Yuhang Guo, Tong Wei  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09944v1.pdf)  
+  Keywords: ar, geometry, face, head, 3d gaussian, gaussian splatting  
+- **[AHA! Animating Human Avatars in Diverse Scenes with Gaussian Splatting](https://arxiv.org/abs/2511.09827v1)**  
+  Authors: Aymen Mir, Jian Wang, Riza Alp Guler, Chuan Guo, Gerard Pons-Moll, Bing Zhou  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09827v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, animation, avatar, motion, gaussian splatting, human  
+- **[A Shared-Autonomy Construction Robotic System for Overhead Works](https://arxiv.org/abs/2511.09695v1)**  
+  Authors: David Minkwan Kim, K. M. Brian Lee, Yong Hyeok Seo, Nikola Raicevic, Runfa Blark Li, Kehan Long, Chan Seon Yoon, Dong Min Kang, Byeong Jo Lim, Young Pyoung Kim, Nikolay Atanasov, Truong Nguyen, Se Woong Jun, Young Wook Kim  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09695v1.pdf)  
+  Keywords: ar, 3d reconstruction, dynamic, head, motion, gaussian splatting  
+- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/2511.06810v1)**  
   Authors: Bartłomiej Baranowski, Stefano Esposito, Patricia Gschoßmann, Anpei Chen, Andreas Geiger  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, geometry, 3d gaussian, fast, ar  
-- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06810v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, efficient, gaussian splatting, fast  
+- **[Robust and High-Fidelity 3D Gaussian Splatting: Fusing Pose Priors and Geometry Constraints for Texture-Deficient Outdoor Scenes](https://arxiv.org/abs/2511.06765v1)**  
+  Authors: Meijun Guo, Yongliang Shi, Caiyun Liu, Yixiao Feng, Ming Ma, Tinghai Yan, Weining Lu, Bin Liang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06765v1.pdf)  
+  Keywords: ar, geometry, outdoor, high-fidelity, 3d gaussian, gaussian splatting  
+- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/2511.06299v2)**  
   Authors: Haoqin Hong, Ding Fan, Fubin Dou, Zhi-Li Zhou, Haoran Sun, Congcong Zhu, Jingrun Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, ar, motion  
-- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06299v2.pdf)  
+  Keywords: ar, geometry, dynamic, 4d, 3d gaussian, efficient, motion, gaussian splatting  
+- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2511.05229v1)**  
   Authors: Mengqi Guo, Bo Xu, Yanyan Li, Gim Hee Lee  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, neural rendering, ar, nerf, motion  
-- **[3D Gaussian Point Encoders](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05229v1.pdf)  
+  Keywords: segmentation, geometry, dynamic, deformation, ar, 3d gaussian, 4d, efficient, neural rendering, motion, gaussian splatting, nerf  
+- **[3D Gaussian Point Encoders](https://arxiv.org/abs/2511.04797v1)**  
   Authors: Jim James, Ben Wilson, Simon Lucey, James Hays  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, efficient, recognition, 3d gaussian, fast, ar, nerf, lightweight  
-- **[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04797v1.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, recognition, 3d gaussian, efficient, gaussian splatting, fast, lightweight, nerf  
+- **[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992v1)**  
   Authors: Yuwen Tao, Kanglei Zhou, Xin Tan, Yuan Xie  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, geometry, 3d gaussian, ar, understanding, vr  
-- **[AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](https://arxiv.org/abs/)**  
-  Authors: Xiyu Zhang, Chong Bao, Yipeng Chen, Hongjia Zhai, Yitong Dong, Hujun Bao, Zhaopeng Cui, Guofeng Zhang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, face, 3d reconstruction, ar, semantic, urban scene  
-- **[DynaPose4D: High-Quality 4D Dynamic Content Generation via Pose Alignment Loss](https://arxiv.org/abs/)**  
-  Authors: Jing Yang, Yufeng Yang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d gaussian, dynamic, 4d, ar, animation, motion  
-- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/)**  
-  Authors: Vitor Pereira Matias, Daniel Perazzo, Vinicius Silva, Alberto Raposo, Luiz Velho, Afonso Paiva, Tiago Novello  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, face, survey, 3d gaussian, efficient rendering, ar, real-time rendering, avatar, animation, lighting  
-- **[GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering](https://arxiv.org/abs/)**  
-  Authors: Alexander Valverde, Brian Xu, Yuyin Zhou, Meng Xu, Hongyun Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, 3d reconstruction, 3d gaussian, ar, semantic, nerf, lighting  
-- **[BalanceGS: Algorithm-System Co-design for Efficient 3D Gaussian Splatting Training on GPU](https://arxiv.org/abs/)**  
-  Authors: Junyi Wu, Jiaming Xu, Jinhao Li, Yongkang Zhou, Jiayi Pan, Xingyang Li, Guohao Dai  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, 3d gaussian, dynamic, ar, mapping  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.03992v1.pdf)  
+  Keywords: segmentation, geometry, ar, vr, 3d gaussian, gaussian splatting, understanding  
+- **[DentalSplat: Dental Occlusion Novel View Synthesis from Sparse Intra-Oral Photographs](https://arxiv.org/abs/2511.03099v1)**  
+  Authors: Yiyi Miao, Taoyu Wu, Tong Chen, Sihao Li, Ji Jiang, Youpeng Yang, Angelos Stefanidis, Limin Yu, Jionglong Su  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.03099v1.pdf)  
+  Keywords: ar, 3d reconstruction, 3d gaussian, gaussian splatting, sparse view  
 
 ### Large Scene
 
-*Showing the latest 50 out of 67 papers*
+*Showing the latest 50 out of 75 papers*
 
-- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+- **[Robust and High-Fidelity 3D Gaussian Splatting: Fusing Pose Priors and Geometry Constraints for Texture-Deficient Outdoor Scenes](https://arxiv.org/abs/2511.06765v1)**  
+  Authors: Meijun Guo, Yongliang Shi, Caiyun Liu, Yixiao Feng, Ming Ma, Tinghai Yan, Weining Lu, Bin Liang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06765v1.pdf)  
+  Keywords: ar, geometry, outdoor, high-fidelity, 3d gaussian, gaussian splatting  
+- **[DIAL-GS: Dynamic Instance Aware Reconstruction for Label-free Street Scenes with 4D Gaussian Splatting](https://arxiv.org/abs/2511.06632v1)**  
+  Authors: Chenpeng Su, Wenhua Wu, Chensheng Peng, Tianchen Deng, Zhe Liu, Hesheng Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06632v1.pdf)  
+  Keywords: ar, dynamic, urban scene, 4d, gaussian splatting, human, autonomous driving  
+- **[CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting](https://arxiv.org/abs/2511.04951v1)**  
   Authors: Hexu Zhao, Xiwen Min, Xiaoteng Liu, Moonjun Gong, Yiming Li, Ang Li, Saining Xie, Jinyang Li, Aurojit Panda  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, 3d gaussian, fast, ar, head, large scene  
-- **[AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04951v1.pdf)  
+  Keywords: ar, large scene, 3d gaussian, head, gaussian splatting, fast  
+- **[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358v1)**  
+  Authors: Mirko Usuelli, David Rapado-Rincon, Gert Kootstra, Matteo Matteucci  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.26358v1.pdf)  
+  Keywords: ar, geometry, outdoor, 3d gaussian, slam, motion, gaussian splatting, mapping, understanding  
+- **[D$^2$GS: Dense Depth Regularization for LiDAR-free Urban Scene Reconstruction](https://arxiv.org/abs/2510.25173v2)**  
+  Authors: Kejing Xia, Jidong Jia, Ke Jin, Yucai Bai, Li Sun, Dacheng Tao, Youjian Zhang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.25173v2.pdf)  
+  Keywords: ar, geometry, urban scene, gaussian splatting, autonomous driving  
+- **[AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](https://arxiv.org/abs/2510.25129v1)**  
   Authors: Xiyu Zhang, Chong Bao, Yipeng Chen, Hongjia Zhai, Yitong Dong, Hujun Bao, Zhaopeng Cui, Guofeng Zhang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, face, 3d reconstruction, ar, semantic, urban scene  
-- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.25129v1.pdf)  
+  Keywords: ar, 3d reconstruction, urban scene, face, gaussian splatting, semantic  
+- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/2510.22669v1)**  
   Authors: Wenkai Zhu, Xu Li, Qimin Xu, Benwu Wang, Kun Wei, Yiming Peng, Zihang Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, high-fidelity, outdoor, 3d gaussian, dynamic, ar, human, slam, mapping  
-- **[Leveraging 2D Priors and SDF Guidance for Dynamic Urban Scene Rendering](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.22669v1.pdf)  
+  Keywords: segmentation, dynamic, outdoor, ar, high-fidelity, 3d gaussian, slam, mapping, gaussian splatting, human  
+- **[Leveraging 2D Priors and SDF Guidance for Dynamic Urban Scene Rendering](https://arxiv.org/abs/2510.13381v1)**  
   Authors: Siddharth Tourani, Jayaram Reddy, Akash Kumbar, Satyajit Tourani, Nishant Goyal, Madhava Krishna, N. Dinesh Reddy, Muhammad Haris Khan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, tracking, 3d gaussian, dynamic, ar, motion, urban scene  
-- **[Two-Stage Gaussian Splatting Optimization for Outdoor Scene Reconstruction](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.13381v1.pdf)  
+  Keywords: segmentation, dynamic, deformation, urban scene, tracking, ar, 3d gaussian, motion, gaussian splatting  
+- **[PAGS: Priority-Adaptive Gaussian Splatting for Dynamic Driving Scenes](https://arxiv.org/abs/2510.12282v1)**  
+  Authors: Ying A, Wenzhang Sun, Chang Zeng, Chunfeng Wang, Hao Li, Jianxun Cui  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.12282v1.pdf)  
+  Keywords: ar, 3d reconstruction, urban scene, dynamic, face, gaussian splatting, semantic, autonomous driving  
+- **[Two-Stage Gaussian Splatting Optimization for Outdoor Scene Reconstruction](https://arxiv.org/abs/2510.09489v1)**  
   Authors: Deborah Pintani, Ariel Caputo, Noah Lewis, Marc Stamminger, Fabio Pellacini, Andrea Giachetti  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, outdoor, ar, illumination, motion  
-- **[LOBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Sheng-Hsiang Hung, Ting-Yu Yen, Wei-Fang Sun, Simon See, Shih-Hsuan Hung, Hung-Kuo Chu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, outdoor, efficient, 3d gaussian, fast, ar, lightweight, head  
-- **[ROSGS: Relightable Outdoor Scenes With Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Lianjun Liao, Chunhui Zhang, Tong Wu, Henglei Lv, Bailin Deng, Lin Gao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: relightable, gaussian splatting, geometry, outdoor, compact, efficient, 3d gaussian, efficient rendering, ar, nerf, illumination, head, lighting, relighting  
-- **[GSVisLoc: Generalizable Visual Localization for Gaussian Splatting Scene Representations](https://arxiv.org/abs/)**  
-  Authors: Fadi Khatib, Dror Moran, Guy Trostianetsky, Yoni Kasten, Meirav Galun, Ronen Basri  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, outdoor, 3d gaussian, ar, localization  
-- **[Reconstruction Using the Invisible: Intuition from NIR and Metadata for Enhanced 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Gyusam Chang, Tuan-Anh Vu, Vivek Alumootil, Harris Song, Deanna Pham, Sangpil Kim, M. Khalid Jawed  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, 3d reconstruction, outdoor, 3d gaussian, ar, understanding, illumination, lighting  
-- **[Multi-view Normal and Distance Guidance Gaussian Splatting for Surface Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Bo Jia, Yanan Guo, Ying Chang, Benkui Zhang, Ying Xie, Kangning Du, Lin Cao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: face, gaussian splatting, geometry, outdoor, 3d gaussian, ar  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.09489v1.pdf)  
+  Keywords: ar, outdoor, illumination, motion, gaussian splatting  
 
 ### Model Compression
 
-*Showing the latest 50 out of 428 papers*
+*Showing the latest 50 out of 404 papers*
 
-- **[UltraGS: Gaussian Splatting for Ultrasound Novel View Synthesis](https://arxiv.org/abs/)**  
+- **[OUGS: Active View Selection via Object-aware Uncertainty Estimation in 3DGS](https://arxiv.org/abs/2511.09397v1)**  
+  Authors: Haiyi Li, Qi Chen, Denis Kalkofen, Hsiang-Ting Chen  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09397v1.pdf)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, semantic  
+- **[UltraGS: Gaussian Splatting for Ultrasound Novel View Synthesis](https://arxiv.org/abs/2511.07743v1)**  
   Authors: Yuezhe Yang, Wenjie Cai, Dexin Yang, Yufang Dong, Xingbo Dong, Zhe Jin  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: ar, lightweight, reflection, gaussian splatting  
-- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07743v1.pdf)  
+  Keywords: lightweight, ar, reflection, gaussian splatting  
+- **[GFix: Perceptually Enhanced Gaussian Splatting Video Compression](https://arxiv.org/abs/2511.06953v1)**  
+  Authors: Siyue Teng, Ge Gao, Duolikun Danier, Yuxuan Jiang, Fan Zhang, Thomas Davis, Zoe Liu, David Bull  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06953v1.pdf)  
+  Keywords: ar, 3d gaussian, efficient, gaussian splatting, quality enhancement, fast, compression  
+- **[ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives](https://arxiv.org/abs/2511.06810v1)**  
   Authors: Bartłomiej Baranowski, Stefano Esposito, Patricia Gschoßmann, Anpei Chen, Andreas Geiger  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, geometry, 3d gaussian, fast, ar  
-- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06810v1.pdf)  
+  Keywords: ar, geometry, 3d gaussian, efficient, gaussian splatting, fast  
+- **[Inpaint360GS: Efficient Object-Aware 3D Inpainting via Gaussian Splatting for 360° Scenes](https://arxiv.org/abs/2511.06457v1)**  
+  Authors: Shaoxiang Wang, Shihong Zhang, Christen Millerdurai, Rüdiger Westermann, Didier Stricker, Alain Pagani  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06457v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://dfki-av.github.io/inpaint360gs/)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, nerf  
+- **[Physics-Informed Deformable Gaussian Splatting: Towards Unified Constitutive Laws for Time-Evolving Material Field](https://arxiv.org/abs/2511.06299v2)**  
   Authors: Haoqin Hong, Ding Fan, Fubin Dou, Zhi-Li Zhou, Haoran Sun, Congcong Zhu, Jingrun Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, ar, motion  
-- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06299v2.pdf)  
+  Keywords: ar, geometry, dynamic, 4d, 3d gaussian, efficient, motion, gaussian splatting  
+- **[StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video](https://arxiv.org/abs/2511.06046v1)**  
+  Authors: Zhihui Ke, Yuyang Liu, Xiaobo Zhou, Tie Qiu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06046v1.pdf)  
+  Keywords: ar, dynamic, deformation, face, 3d gaussian, motion, gaussian splatting, compression  
+- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2511.05229v1)**  
   Authors: Mengqi Guo, Bo Xu, Yanyan Li, Gim Hee Lee  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, neural rendering, ar, nerf, motion  
-- **[3D Gaussian Point Encoders](https://arxiv.org/abs/)**  
-  Authors: Jim James, Ben Wilson, Simon Lucey, James Hays  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, efficient, recognition, 3d gaussian, fast, ar, nerf, lightweight  
-- **[4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Guassian Splatting](https://arxiv.org/abs/)**  
-  Authors: Chun-Tin Wu, Jun-Cheng Chen  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, compact, efficient, 3d gaussian, fast, dynamic, 4d, efficient rendering, ar, real-time rendering, head  
-- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Phuc Nguyen Xuan, Thanh Nguyen Canh, Huu-Hung Nguyen, Nak Young Chong, Xiem HoangVan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, high-fidelity, survey, 3d gaussian, ar, semantic, robotics, localization, slam, mapping  
-- **[DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum](https://arxiv.org/abs/)**  
-  Authors: Yaokun Li, Lihe Ding, Xiao Chen, Guang Tan, Tianfan Xue  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, compact, face, 3d gaussian, fast, dynamic, 4d, ar, semantic, animation, motion  
-- **[MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: In-Hwan Jin, Hyeongju Mun, Joonsoo Kim, Kugjin Yun, Kyeongbo Kong  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://anonymous.4open.science/w/MoE-GS-68BA/.)  
-  Keywords: gaussian splatting, 3d gaussian, dynamic, ar, lightweight  
-- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/)**  
-  Authors: Vitor Pereira Matias, Daniel Perazzo, Vinicius Silva, Alberto Raposo, Luiz Velho, Afonso Paiva, Tiago Novello  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, face, survey, 3d gaussian, efficient rendering, ar, real-time rendering, avatar, animation, lighting  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05229v1.pdf)  
+  Keywords: segmentation, geometry, dynamic, deformation, ar, 3d gaussian, 4d, efficient, neural rendering, motion, gaussian splatting, nerf  
+- **[Efficient representation of 3D spatial data for defense-related applications](https://arxiv.org/abs/2511.05109v1)**  
+  Authors: Benjamin Kahl, Marcus Hebel, Michael Arens  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05109v1.pdf)  
+  Keywords: ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, nerf  
+- **[Channel Knowledge Map Construction: Recent Advances and Open Challenges](https://arxiv.org/abs/2511.04944v1)**  
+  Authors: Zixiang Ren, Juncong Zhou, Jie Xu, Ling Qiu, Yong Zeng, Han Hu, Juyong Zhang, Rui Zhang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04944v1.pdf)  
+  Keywords: ar, high-fidelity, lighting, efficient, gaussian splatting  
 
 ### Quality Enhancement
 
-*Showing the latest 50 out of 160 papers*
+*Showing the latest 50 out of 182 papers*
 
-- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+- **[OUGS: Active View Selection via Object-aware Uncertainty Estimation in 3DGS](https://arxiv.org/abs/2511.09397v1)**  
+  Authors: Haiyi Li, Qi Chen, Denis Kalkofen, Hsiang-Ting Chen  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09397v1.pdf)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, semantic  
+- **[Perceptual Quality Assessment of 3D Gaussian Splatting: A Subjective Dataset and Prediction Metric](https://arxiv.org/abs/2511.08032v1)**  
+  Authors: Zhaolin Wan, Yining Diao, Jingqi Xu, Hao Wang, Zhiyang Li, Xiaopeng Fan, Wangmeng Zuo, Debin Zhao  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.08032v1.pdf)  
+  Keywords: ar, high-fidelity, 3d gaussian, lighting, gaussian splatting  
+- **[GFix: Perceptually Enhanced Gaussian Splatting Video Compression](https://arxiv.org/abs/2511.06953v1)**  
+  Authors: Siyue Teng, Ge Gao, Duolikun Danier, Yuxuan Jiang, Fan Zhang, Thomas Davis, Zoe Liu, David Bull  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06953v1.pdf)  
+  Keywords: ar, 3d gaussian, efficient, gaussian splatting, quality enhancement, fast, compression  
+- **[Robust and High-Fidelity 3D Gaussian Splatting: Fusing Pose Priors and Geometry Constraints for Texture-Deficient Outdoor Scenes](https://arxiv.org/abs/2511.06765v1)**  
+  Authors: Meijun Guo, Yongliang Shi, Caiyun Liu, Yixiao Feng, Ming Ma, Tinghai Yan, Weining Lu, Bin Liang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06765v1.pdf)  
+  Keywords: ar, geometry, outdoor, high-fidelity, 3d gaussian, gaussian splatting  
+- **[Rethinking Rainy 3D Scene Reconstruction via Perspective Transforming and Brightness Tuning](https://arxiv.org/abs/2511.06734v1)**  
+  Authors: Qianfeng Yang, Xiang Chen, Pengpeng Li, Qiyuan Guan, Guiyue Jin, Jiyu Jin  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06734v1.pdf)  
+  Keywords: ar, dynamic, vr, high-fidelity, 3d gaussian, gaussian splatting  
+- **[Inpaint360GS: Efficient Object-Aware 3D Inpainting via Gaussian Splatting for 360° Scenes](https://arxiv.org/abs/2511.06457v1)**  
+  Authors: Shaoxiang Wang, Shihong Zhang, Christen Millerdurai, Rüdiger Westermann, Didier Stricker, Alain Pagani  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06457v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://dfki-av.github.io/inpaint360gs/)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, nerf  
+- **[Efficient representation of 3D spatial data for defense-related applications](https://arxiv.org/abs/2511.05109v1)**  
+  Authors: Benjamin Kahl, Marcus Hebel, Michael Arens  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05109v1.pdf)  
+  Keywords: ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, nerf  
+- **[Channel Knowledge Map Construction: Recent Advances and Open Challenges](https://arxiv.org/abs/2511.04944v1)**  
+  Authors: Zixiang Ren, Juncong Zhou, Jie Xu, Ling Qiu, Yong Zeng, Han Hu, Juyong Zhang, Rui Zhang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04944v1.pdf)  
+  Keywords: ar, high-fidelity, lighting, efficient, gaussian splatting  
+- **[Object-Centric 3D Gaussian Splatting for Strawberry Plant Reconstruction and Phenotyping](https://arxiv.org/abs/2511.02207v1)**  
+  Authors: Jiajia Li, Keyi Zhu, Qianwen Zhang, Dong Chen, Qi Sun, Zhaojian Li  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.02207v1.pdf)  
+  Keywords: ar, 3d reconstruction, dynamic, high-fidelity, 3d gaussian, neural rendering, gaussian splatting, nerf  
+- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/2510.23988v1)**  
   Authors: Phuc Nguyen Xuan, Thanh Nguyen Canh, Huu-Hung Nguyen, Nak Young Chong, Xiem HoangVan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, high-fidelity, survey, 3d gaussian, ar, semantic, robotics, localization, slam, mapping  
-- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/)**  
-  Authors: Wenkai Zhu, Xu Li, Qimin Xu, Benwu Wang, Kun Wei, Yiming Peng, Zihang Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, high-fidelity, outdoor, 3d gaussian, dynamic, ar, human, slam, mapping  
-- **[2DGS-R: Revisiting the Normal Consistency Regularization in 2D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Haofan Ren, Qingsong Yan, Ming Lu, Rongfeng Lu, Zunjie Zhu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, face, 3d gaussian, ar, head, lighting  
-- **[InsideOut: Integrated RGB-Radiative Gaussian Splatting for Comprehensive 3D Object Representation](https://arxiv.org/abs/)**  
-  Authors: Jungmin Lee, Seonghyuk Hong, Juyong Lee, Jaeyoon Lee, Jongwon Choi  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, medical, face, 3d gaussian, ar  
-- **[Capture, Canonicalize, Splat: Zero-Shot 3D Gaussian Avatars from Unstructured Phone Images](https://arxiv.org/abs/)**  
-  Authors: Emanuel Garbin, Guy Adam, Oded Krams, Zohar Barzelay, Eran Guendelman, Michael Schwarz, Matteo Presutto, Moran Vatelmacher, Yigal Shenkman, Eli Peker, Itai Druker, Uri Patish, Yoav Blum, Max Bluvstein, Junxuan Li, Rawal Khirodkar, Shunsuke Saito  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, face, 3d gaussian, ar, body, avatar  
-- **[UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering](https://arxiv.org/abs/)**  
-  Authors: Yusen Xie, Zhenmin Huang, Jianhao Jiao, Dimitrios Kanoulas, Jun Ma  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: geometry, gaussian splatting, high-fidelity, 3d reconstruction, face, 3d gaussian, ar, semantic  
-- **[D$^2$GS: Depth-and-Density Guided Gaussian Splatting for Stable and Accurate Sparse-View Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Meixi Song, Xin Lin, Dizhe Zhang, Haodong Li, Xiangtai Li, Bo Du, Lu Qi  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://insta360-research-team.github.io/DDGS-website/.)  
-  Keywords: sparse-view, gaussian splatting, high-fidelity, 3d gaussian, sparse view, ar  
-- **[Optimized Minimal 4D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Minseo Lee, Byeonghyeon Lee, Lucas Yunkyu Lee, Eunsoo Lee, Sangmin Kim, Seunghyeon Song, Joo Chan Lee, Jong Hwan Ko, Jaesik Park, Eunbyung Park  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://minshirley.github.io/OMG4/.)  
-  Keywords: gaussian splatting, high-fidelity, compression, compact, face, dynamic, 4d, ar, real-time rendering, head, motion  
-- **[LOBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Sheng-Hsiang Hung, Ting-Yu Yen, Wei-Fang Sun, Simon See, Shih-Hsuan Hung, Hung-Kuo Chu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, outdoor, efficient, 3d gaussian, fast, ar, lightweight, head  
-- **[GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading](https://arxiv.org/abs/)**  
-  Authors: Donghyun Lee, Dawoon Jeong, Jae W. Lee, Hongil Yoon  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: high quality, gaussian splatting, efficient, fast, 3d gaussian, ar  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.23988v1.pdf)  
+  Keywords: ar, robotics, localization, high-fidelity, 3d gaussian, slam, survey, efficient, mapping, gaussian splatting, semantic  
 
 ### Ray Tracing
 
-- **[MaterialRefGS: Reflective Gaussian Splatting with Multi-view Consistent Material Inference](https://arxiv.org/abs/)**  
+- **[MaterialRefGS: Reflective Gaussian Splatting with Multi-view Consistent Material Inference](https://arxiv.org/abs/2510.11387v2)**  
   Authors: Wenyuan Zhang, Jimin Tang, Weiqi Zhang, Yi Fang, Yu-Shen Liu, Zhizhong Han  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, ray tracing, ar, illumination, reflection  
-- **[Splat the Net: Radiance Fields with Splattable Neural Primitives](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.11387v2.pdf)  
+  Keywords: ar, geometry, ray tracing, reflection, illumination, gaussian splatting  
+- **[Splat the Net: Radiance Fields with Splattable Neural Primitives](https://arxiv.org/abs/2510.08491v1)**  
   Authors: Xilong Zhou, Bao-Huy Nguyen, Loïc Magne, Vladislav Golyanik, Thomas Leimkühler, Christian Theobalt  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://vcai.mpi-inf.mpg.de/projects/SplatNet/.)  
-  Keywords: efficient, gaussian splatting, geometry, 3d gaussian, ar, ray marching  
-- **[Gaussian Splatting with Discretized SDF for Relightable Assets](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.08491v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://vcai.mpi-inf.mpg.de/projects/SplatNet/.)  
+  Keywords: ar, geometry, 3d gaussian, efficient, gaussian splatting, ray marching  
+- **[ComGS: Efficient 3D Object-Scene Composition via Surface Octahedral Probes](https://arxiv.org/abs/2510.07729v1)**  
+  Authors: Jian Gao, Mengqi Yuan, Yifei Zeng, Chang Zeng, Zhihao Li, Zhenyu Chen, Weichao Qiu, Xiao-Xiao Long, Hao Zhu, Xun Cao, Yao Yao  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.07729v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://nju-3dv.github.io/projects/ComGS/.)  
+  Keywords: ar, face, ray tracing, lighting, efficient, shadow, gaussian splatting, real-time rendering, relightable, light transport  
+- **[Differentiable Light Transport with Gaussian Surfels via Adapted Radiosity for Efficient Relighting and Geometry Reconstruction](https://arxiv.org/abs/2509.18497v2)**  
+  Authors: Kaiwen Jiang, Jia-Mu Sun, Zilu Li, Dan Wang, Tzu-Mao Li, Ravi Ramamoorthi  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.18497v2.pdf)  
+  Keywords: ar, geometry, relighting, reflection, lighting, global illumination, efficient, illumination, gaussian splatting, light transport  
+- **[Every Camera Effect, Every Time, All at Once: 4D Gaussian Ray Tracing for Physics-based Camera Effect Data Generation](https://arxiv.org/abs/2509.10759v2)**  
+  Authors: Yi-Ruei Liu, You-Zhe Xie, Yu-Hsiang Hsu, I-Sheng Fang, Yu-Lun Liu, Jun-Cheng Chen  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.10759v2.pdf)  
+  Keywords: ar, dynamic, ray tracing, 4d, gaussian splatting, fast  
+- **[GOGS: High-Fidelity Geometry and Relighting for Glossy Objects via Gaussian Surfels](https://arxiv.org/abs/2508.14563v1)**  
+  Authors: Xingyuan Yang, Min Wei  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.14563v1.pdf)  
+  Keywords: ar, geometry, face, relighting, ray tracing, high-fidelity, reflection, 3d gaussian, lighting, illumination, gaussian splatting, nerf  
+- **[GaRe: Relightable 3D Gaussian Splatting for Outdoor Scenes from Unconstrained Photo Collections](https://arxiv.org/abs/2507.20512v1)**  
+  Authors: Haiyang Bai, Jiaqi Zhu, Songru Jiang, Wei Huang, Tao Lu, Yuanqi Li, Jie Guo, Runze Fu, Yanwen Guo, Lijun Chen  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2507.20512v1.pdf)  
+  Keywords: ar, dynamic, outdoor, face, relighting, 3d gaussian, lighting, global illumination, shadow, illumination, gaussian splatting, relightable  
+- **[GSCache: Real-Time Radiance Caching for Volume Path Tracing using 3D Gaussian Splatting](https://arxiv.org/abs/2507.19718v2)**  
+  Authors: David Bauer, Qi Wu, Hamid Gadirov, Kwan-Liu Ma  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2507.19718v2.pdf)  
+  Keywords: ar, dynamic, face, path tracing, 3d gaussian, lighting, gaussian splatting  
+- **[Gaussian Splatting with Discretized SDF for Relightable Assets](https://arxiv.org/abs/2507.15629v1)**  
   Authors: Zuo-Liang Zhu, Jian Yang, Beibei Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: relightable, gaussian splatting, geometry, efficient, face, 3d gaussian, efficient rendering, ar, ray marching, lighting, relighting  
-- **[RaRa Clipper: A Clipper for Gaussian Splatting Based on Ray Tracer and Rasterizer](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2507.15629v1.pdf)  
+  Keywords: ar, geometry, face, relighting, efficient rendering, 3d gaussian, lighting, efficient, gaussian splatting, ray marching, relightable  
+- **[RaRa Clipper: A Clipper for Gaussian Splatting Based on Ray Tracer and Rasterizer](https://arxiv.org/abs/2506.20202v1)**  
   Authors: Da Li, Donggang Jia, Yousef Rajeh, Dominik Engel, Ivan Viola  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, high-fidelity, ray tracing, ar, real-time rendering  
-- **[DNF-Avatar: Distilling Neural Fields for Real-time Animatable Avatar Relighting](https://arxiv.org/abs/)**  
-  Authors: Zeren Jiang, Shaofei Wang, Siyu Tang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: shadow, relightable, gaussian splatting, geometry, fast, ray tracing, ar, human, avatar, lighting, relighting  
-- **[Stochastic Ray Tracing of Transparent 3D Gaussians](https://arxiv.org/abs/)**  
-  Authors: Xin Sun, Iliyan Georgiev, Yun Fei, Miloš Hašan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, acceleration, 3d gaussian, ray tracing, efficient rendering, ar, lighting, relighting  
-- **[3D Gaussian Inverse Rendering with Approximated Global Illumination](https://arxiv.org/abs/)**  
-  Authors: Zirui Wu, Jianteng Chen, Laijian Li, Shaoteng Wu, Zhikai Zhu, Kang Xu, Martin R. Oswald, Jie Song  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://wuzirui.github.io/gs-ssr.)  
-  Keywords: gaussian splatting, efficient, face, 3d gaussian, ray tracing, ar, real-time rendering, global illumination, illumination, lighting  
-- **[REdiSplats: Ray Tracing for Editable Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Krzysztof Byrski, Grzegorz Wilczyński, Weronika Smolak-Dyżewska, Piotr Borycki, Dawid Baran, Sławomir Tadeja, Przemysław Spurek  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: shadow, gaussian splatting, 3d gaussian, fast, ray tracing, neural rendering, ar, reflection  
-- **[MeshSplats: Mesh-Based Rendering with Gaussian Splatting Initialization](https://arxiv.org/abs/)**  
-  Authors: Rafał Tobiasz, Grzegorz Wilczyński, Marcin Mazur, Sławomir Tadeja, Przemysław Spurek  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: shadow, gaussian splatting, face, ray tracing, lighting, reflection  
-- **[Radiant Foam: Real-Time Differentiable Ray Tracing](https://arxiv.org/abs/)**  
-  Authors: Shrisudhan Govindarajan, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, acceleration, ray tracing, light transport, ar, reflection  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.20202v1.pdf)  
+  Keywords: ar, ray tracing, high-fidelity, efficient, gaussian splatting, real-time rendering  
 
 ### Relighting
 
-*Showing the latest 50 out of 107 papers*
+*Showing the latest 50 out of 119 papers*
 
-- **[UltraGS: Gaussian Splatting for Ultrasound Novel View Synthesis](https://arxiv.org/abs/)**  
+- **[Perceptual Quality Assessment of 3D Gaussian Splatting: A Subjective Dataset and Prediction Metric](https://arxiv.org/abs/2511.08032v1)**  
+  Authors: Zhaolin Wan, Yining Diao, Jingqi Xu, Hao Wang, Zhiyang Li, Xiaopeng Fan, Wangmeng Zuo, Debin Zhao  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.08032v1.pdf)  
+  Keywords: ar, high-fidelity, 3d gaussian, lighting, gaussian splatting  
+- **[UltraGS: Gaussian Splatting for Ultrasound Novel View Synthesis](https://arxiv.org/abs/2511.07743v1)**  
   Authors: Yuezhe Yang, Wenjie Cai, Dexin Yang, Yufang Dong, Xingbo Dong, Zhe Jin  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: ar, lightweight, reflection, gaussian splatting  
-- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.07743v1.pdf)  
+  Keywords: lightweight, ar, reflection, gaussian splatting  
+- **[Channel Knowledge Map Construction: Recent Advances and Open Challenges](https://arxiv.org/abs/2511.04944v1)**  
+  Authors: Zixiang Ren, Juncong Zhou, Jie Xu, Ling Qiu, Yong Zeng, Han Hu, Juyong Zhang, Rui Zhang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04944v1.pdf)  
+  Keywords: ar, high-fidelity, lighting, efficient, gaussian splatting  
+- **[RoGER-SLAM: A Robust Gaussian Splatting SLAM System for Noisy and Low-light Environment Resilience](https://arxiv.org/abs/2510.22600v1)**  
+  Authors: Huilin Yin, Zhaolin Yang, Linchuan Zhang, Gerhard Rigoll, Johannes Betz  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.22600v1.pdf)  
+  Keywords: ar, tracking, localization, high-fidelity, 3d gaussian, slam, illumination, mapping, gaussian splatting, semantic  
+- **[Dino-Diffusion Modular Designs Bridge the Cross-Domain Gap in Autonomous Parking](https://arxiv.org/abs/2510.20335v1)**  
+  Authors: Zixuan Wu, Hengyuan Zhang, Ting-Hsuan Chen, Yuliang Guo, David Paz, Xinyu Huang, Liu Ren  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.20335v1.pdf)  
+  Keywords: ar, 3d gaussian, lighting, motion, gaussian splatting  
+- **[Moving Light Adaptive Colonoscopy Reconstruction via Illumination-Attenuation-Aware 3D Gaussian Splatting](https://arxiv.org/abs/2510.18739v1)**  
+  Authors: Hao Wang, Ying Zhou, Haoyu Zhao, Rui Wang, Qiang Hu, Xing Zhang, Qiang Li, Zhiwei Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.18739v1.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, dynamic, tracking, 3d gaussian, illumination, gaussian splatting  
+- **[From Volume Rendering to 3D Gaussian Splatting: Theory and Applications](https://arxiv.org/abs/2510.18101v1)**  
   Authors: Vitor Pereira Matias, Daniel Perazzo, Vinicius Silva, Alberto Raposo, Luiz Velho, Afonso Paiva, Tiago Novello  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, face, survey, 3d gaussian, efficient rendering, ar, real-time rendering, avatar, animation, lighting  
-- **[2DGS-R: Revisiting the Normal Consistency Regularization in 2D Gaussian Splatting](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.18101v1.pdf)  
+  Keywords: ar, 3d reconstruction, face, efficient rendering, 3d gaussian, lighting, survey, efficient, animation, avatar, gaussian splatting, real-time rendering  
+- **[2DGS-R: Revisiting the Normal Consistency Regularization in 2D Gaussian Splatting](https://arxiv.org/abs/2510.16837v1)**  
   Authors: Haofan Ren, Qingsong Yan, Ming Lu, Rongfeng Lu, Zunjie Zhu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, face, 3d gaussian, ar, head, lighting  
-- **[GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.16837v1.pdf)  
+  Keywords: ar, face, high-fidelity, 3d gaussian, lighting, head, gaussian splatting  
+- **[GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering](https://arxiv.org/abs/2510.14270v3)**  
   Authors: Alexander Valverde, Brian Xu, Yuyin Zhou, Meng Xu, Hongyun Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, 3d reconstruction, 3d gaussian, ar, semantic, nerf, lighting  
-- **[MaterialRefGS: Reflective Gaussian Splatting with Multi-view Consistent Material Inference](https://arxiv.org/abs/)**  
-  Authors: Wenyuan Zhang, Jimin Tang, Weiqi Zhang, Yi Fang, Yu-Shen Liu, Zhizhong Han  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, ray tracing, ar, illumination, reflection  
-- **[VA-GS: Enhancing the Geometric Representation of Gaussian Splatting via View Alignment](https://arxiv.org/abs/)**  
-  Authors: Qing Li, Huifang Feng, Xun Gong, Yu-Shen Liu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, efficient, face, 3d gaussian, ar, illumination, lighting  
-- **[Two-Stage Gaussian Splatting Optimization for Outdoor Scene Reconstruction](https://arxiv.org/abs/)**  
-  Authors: Deborah Pintani, Ariel Caputo, Noah Lewis, Marc Stamminger, Fabio Pellacini, Andrea Giachetti  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, outdoor, ar, illumination, motion  
-- **[Spec-Gloss Surfels and Normal-Diffuse Priors for Relightable Glossy Objects](https://arxiv.org/abs/)**  
-  Authors: Georgios Kouros, Minye Wu, Tinne Tuytelaars  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: relightable, gaussian splatting, geometry, face, dynamic, neural rendering, ar, reflection, illumination, lighting, relighting  
-- **[Universal Beta Splatting](https://arxiv.org/abs/)**  
-  Authors: Rong Liu, Zhongpai Gao, Benjamin Planche, Meida Chen, Van Nguyen Nguyen, Meng Zheng, Anwesa Choudhuri, Terrence Chen, Yue Wang, Andrew Feng, Ziyan Wu  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://rongliu-leo.github.io/universal-beta-splatting/.)  
-  Keywords: gaussian splatting, face, 3d gaussian, light transport, dynamic, ar, real-time rendering  
-- **[Large Material Gaussian Model for Relightable 3D Generation](https://arxiv.org/abs/)**  
-  Authors: Jingrui Ye, Lingting Zhu, Runze Zhang, Zeyu Hu, Yingda Yin, Lanjiong Li, Lequan Yu, Qingmin Liao  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: relightable, gaussian splatting, efficient, 3d gaussian, dynamic, ar, lighting, relighting  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.14270v3.pdf)  
+  Keywords: segmentation, 3d reconstruction, ar, 3d gaussian, lighting, gaussian splatting, semantic, nerf  
+- **[Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Multi-View Performance Captures](https://arxiv.org/abs/2510.14179v1)**  
+  Authors: Yuancheng Xu, Wenqi Xian, Li Ma, Julien Philip, Ahmet Levent Taşel, Yiwei Zhao, Ryan Burgert, Mingming He, Oliver Hermann, Oliver Pilarski, Rahul Garg, Paul Debevec, Ning Yu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.14179v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://eyeline-labs.github.io/Virtually-Being.)  
+  Keywords: ar, relighting, 4d, lighting, efficient, motion, gaussian splatting  
 
 ### SLAM
 
-*Showing the latest 50 out of 137 papers*
+*Showing the latest 50 out of 139 papers*
 
-- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+- **[FastGS: Training 3D Gaussian Splatting in 100 Seconds](https://arxiv.org/abs/2511.04283v1)**  
+  Authors: Shiwei Ren, Tianci Wen, Yongchun Fang, Biao Lu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04283v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://fastgs.github.io/)  
+  Keywords: ar, acceleration, dynamic, face, localization, 3d gaussian, head, efficient, mapping, gaussian splatting, fast, nerf, sparse-view  
+- **[WildfireX-SLAM: A Large-scale Low-altitude RGB-D Dataset for Wildfire SLAM and Beyond](https://arxiv.org/abs/2510.27133v1)**  
+  Authors: Zhicong Sun, Jacqueline Lo, Jinxing Hu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.27133v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://zhicongsun.github.io/wildfirexslam.)  
+  Keywords: ar, localization, 3d gaussian, slam, mapping, gaussian splatting  
+- **[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358v1)**  
+  Authors: Mirko Usuelli, David Rapado-Rincon, Gert Kootstra, Matteo Matteucci  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.26358v1.pdf)  
+  Keywords: ar, geometry, outdoor, 3d gaussian, slam, motion, gaussian splatting, mapping, understanding  
+- **[LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation](https://arxiv.org/abs/2510.24118v1)**  
+  Authors: Haotian Zhou, Xiaole Wang, He Li, Fusheng Sun, Shengyu Guo, Guolei Qi, Jianghuan Xu, Huijing Zhao  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.24118v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://weekgoodday.github.io/lagmemo)  
+  Keywords: ar, dynamic, localization, 3d gaussian, gaussian splatting  
+- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/2510.23988v1)**  
   Authors: Phuc Nguyen Xuan, Thanh Nguyen Canh, Huu-Hung Nguyen, Nak Young Chong, Xiem HoangVan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, high-fidelity, survey, 3d gaussian, ar, semantic, robotics, localization, slam, mapping  
-- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.23988v1.pdf)  
+  Keywords: ar, robotics, localization, high-fidelity, 3d gaussian, slam, survey, efficient, mapping, gaussian splatting, semantic  
+- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/2510.22669v1)**  
   Authors: Wenkai Zhu, Xu Li, Qimin Xu, Benwu Wang, Kun Wei, Yiming Peng, Zihang Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, high-fidelity, outdoor, 3d gaussian, dynamic, ar, human, slam, mapping  
-- **[BalanceGS: Algorithm-System Co-design for Efficient 3D Gaussian Splatting Training on GPU](https://arxiv.org/abs/)**  
-  Authors: Junyi Wu, Jiaming Xu, Jinhao Li, Yongkang Zhou, Jiayi Pan, Xingyang Li, Guohao Dai  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, 3d gaussian, dynamic, ar, mapping  
-- **[Leveraging 2D Priors and SDF Guidance for Dynamic Urban Scene Rendering](https://arxiv.org/abs/)**  
-  Authors: Siddharth Tourani, Jayaram Reddy, Akash Kumbar, Satyajit Tourani, Nishant Goyal, Madhava Krishna, N. Dinesh Reddy, Muhammad Haris Khan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, tracking, 3d gaussian, dynamic, ar, motion, urban scene  
-- **[SCas4D: Structural Cascaded Optimization for Boosting Persistent 4D Novel View Synthesis](https://arxiv.org/abs/)**  
-  Authors: Jipeng Lyu, Jiahua Dong, Yu-Xiong Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, tracking, 3d gaussian, dynamic, 4d, ar  
-- **[Learning Unified Representation of 3D Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Yuelin Xin, Yuheng Liu, Xiaohui Xie, Xinke Li  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, 3d reconstruction, 3d gaussian, ar, mapping  
-- **[Seeing Through Reflections: Advancing 3D Scene Reconstruction in Mirror-Containing Environments with Gaussian Splatting](https://arxiv.org/abs/)**  
-  Authors: Zijing Guo, Yunyang Zhao, Lin Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, face, 3d gaussian, ar, nerf, mapping, reflection  
-- **[MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping](https://arxiv.org/abs/)**  
-  Authors: Zhihao Cao, Hanyu Wu, Li Wa Tang, Zizhou Luo, Zihan Zhu, Wei Zhang, Marc Pollefeys, Martin R. Oswald  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, high-fidelity, 3d gaussian, autonomous driving, ar, robotics, slam, mapping  
-- **[MemGS: Memory-Efficient Gaussian Splatting for Real-Time SLAM](https://arxiv.org/abs/)**  
-  Authors: Yinlong Bai, Hongxin Zhang, Sheng Zhong, Junkai Niu, Hai Li, Yijia He, Yi Zhou  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, efficient, face, 3d gaussian, ar, slam  
-- **[On the Skinning of Gaussian Avatars](https://arxiv.org/abs/)**  
-  Authors: Nikolaos Zioulis, Nikolaos Kotarelas, Georgios Albanis, Spyridon Thermos, Anargyros Chatzitofis  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: deformation, gaussian splatting, efficient, fast, ar, human, avatar, mapping  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.22669v1.pdf)  
+  Keywords: segmentation, dynamic, outdoor, ar, high-fidelity, 3d gaussian, slam, mapping, gaussian splatting, human  
+- **[RoGER-SLAM: A Robust Gaussian Splatting SLAM System for Noisy and Low-light Environment Resilience](https://arxiv.org/abs/2510.22600v1)**  
+  Authors: Huilin Yin, Zhaolin Yang, Linchuan Zhang, Gerhard Rigoll, Johannes Betz  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.22600v1.pdf)  
+  Keywords: ar, tracking, localization, high-fidelity, 3d gaussian, slam, illumination, mapping, gaussian splatting, semantic  
+- **[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238v1)**  
+  Authors: Runsong Zhu, Ka-Hei Hui, Zhengzhe Liu, Qianyi Wu, Weiliang Tang, Shi Qiu, Pheng-Ann Heng, Chi-Wing Fu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.20238v1.pdf)  
+  Keywords: segmentation, ar, robotics, efficient, mapping, understanding  
+- **[Moving Light Adaptive Colonoscopy Reconstruction via Illumination-Attenuation-Aware 3D Gaussian Splatting](https://arxiv.org/abs/2510.18739v1)**  
+  Authors: Hao Wang, Ying Zhou, Haoyu Zhao, Rui Wang, Qiang Hu, Xing Zhang, Qiang Li, Zhiwei Wang  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.18739v1.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, dynamic, tracking, 3d gaussian, illumination, gaussian splatting  
+- **[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410v1)**  
+  Authors: Changyue Shi, Minghao Chen, Yiping Mao, Chuxiao Yang, Xinyuan Hu, Jiajun Ding, Zhou Yu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.16410v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://ChangyueShi.github.io/REALM.)  
+  Keywords: segmentation, ar, robotics, localization, 3d gaussian, gaussian splatting, human, understanding  
 
 ### Scene Understanding
 
-*Showing the latest 50 out of 166 papers*
+*Showing the latest 50 out of 199 papers*
 
-- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/)**  
+- **[OUGS: Active View Selection via Object-aware Uncertainty Estimation in 3DGS](https://arxiv.org/abs/2511.09397v1)**  
+  Authors: Haiyi Li, Qi Chen, Denis Kalkofen, Hsiang-Ting Chen  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.09397v1.pdf)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, semantic  
+- **[Inpaint360GS: Efficient Object-Aware 3D Inpainting via Gaussian Splatting for 360° Scenes](https://arxiv.org/abs/2511.06457v1)**  
+  Authors: Shaoxiang Wang, Shihong Zhang, Christen Millerdurai, Rüdiger Westermann, Didier Stricker, Alain Pagani  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.06457v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://dfki-av.github.io/inpaint360gs/)  
+  Keywords: segmentation, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting, nerf  
+- **[4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos](https://arxiv.org/abs/2511.05229v1)**  
   Authors: Mengqi Guo, Bo Xu, Yanyan Li, Gim Hee Lee  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, geometry, efficient, 3d gaussian, dynamic, 4d, neural rendering, ar, nerf, motion  
-- **[3D Gaussian Point Encoders](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.05229v1.pdf)  
+  Keywords: segmentation, geometry, dynamic, deformation, ar, 3d gaussian, 4d, efficient, neural rendering, motion, gaussian splatting, nerf  
+- **[3D Gaussian Point Encoders](https://arxiv.org/abs/2511.04797v1)**  
   Authors: Jim James, Ben Wilson, Simon Lucey, James Hays  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, geometry, 3d reconstruction, efficient, recognition, 3d gaussian, fast, ar, nerf, lightweight  
-- **[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.04797v1.pdf)  
+  Keywords: ar, 3d reconstruction, geometry, recognition, 3d gaussian, efficient, gaussian splatting, fast, lightweight, nerf  
+- **[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992v1)**  
   Authors: Yuwen Tao, Kanglei Zhou, Xin Tan, Yuan Xie  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, geometry, 3d gaussian, ar, understanding, vr  
-- **[AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.03992v1.pdf)  
+  Keywords: segmentation, geometry, ar, vr, 3d gaussian, gaussian splatting, understanding  
+- **[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777v1)**  
+  Authors: Antonio Oroz, Matthias Nießner, Tobias Kirschstein  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.02777v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://antoniooroz.github.io/PercHead)  
+  Keywords: segmentation, geometry, ar, head, gaussian splatting, semantic, lightweight  
+- **[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358v1)**  
+  Authors: Mirko Usuelli, David Rapado-Rincon, Gert Kootstra, Matteo Matteucci  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.26358v1.pdf)  
+  Keywords: ar, geometry, outdoor, 3d gaussian, slam, motion, gaussian splatting, mapping, understanding  
+- **[AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians](https://arxiv.org/abs/2510.25129v1)**  
   Authors: Xiyu Zhang, Chong Bao, Yipeng Chen, Hongjia Zhai, Yitong Dong, Hujun Bao, Zhaopeng Cui, Guofeng Zhang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, face, 3d reconstruction, ar, semantic, urban scene  
-- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/)**  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.25129v1.pdf)  
+  Keywords: ar, 3d reconstruction, urban scene, face, gaussian splatting, semantic  
+- **[A Survey on Collaborative SLAM with 3D Gaussian Splatting](https://arxiv.org/abs/2510.23988v1)**  
   Authors: Phuc Nguyen Xuan, Thanh Nguyen Canh, Huu-Hung Nguyen, Nak Young Chong, Xiem HoangVan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: efficient, gaussian splatting, high-fidelity, survey, 3d gaussian, ar, semantic, robotics, localization, slam, mapping  
-- **[Explicit Memory through Online 3D Gaussian Splatting Improves Class-Agnostic Video Segmentation](https://arxiv.org/abs/)**  
-  Authors: Anthony Opipari, Aravindhan K Krishnan, Shreekant Gayaka, Min Sun, Cheng-Hao Kuo, Arnie Sen, Odest Chadwicke Jenkins  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://topipari.com/projects/FastSAM-Splat/)  
-  Keywords: segmentation, gaussian splatting, 3d gaussian, fast, ar  
-- **[LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/)**  
-  Authors: Wenkai Zhu, Xu Li, Qimin Xu, Benwu Wang, Kun Wei, Yiming Peng, Zihang Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, high-fidelity, outdoor, 3d gaussian, dynamic, ar, human, slam, mapping  
-- **[DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum](https://arxiv.org/abs/)**  
-  Authors: Yaokun Li, Lihe Ding, Xiao Chen, Guang Tan, Tianfan Xue  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: gaussian splatting, compact, face, 3d gaussian, fast, dynamic, 4d, ar, semantic, animation, motion  
-- **[GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering](https://arxiv.org/abs/)**  
-  Authors: Alexander Valverde, Brian Xu, Yuyin Zhou, Meng Xu, Hongyun Wang  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, gaussian splatting, 3d reconstruction, 3d gaussian, ar, semantic, nerf, lighting  
-- **[Leveraging 2D Priors and SDF Guidance for Dynamic Urban Scene Rendering](https://arxiv.org/abs/)**  
-  Authors: Siddharth Tourani, Jayaram Reddy, Akash Kumbar, Satyajit Tourani, Nishant Goyal, Madhava Krishna, N. Dinesh Reddy, Muhammad Haris Khan  
-  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/.pdf)  
-  Keywords: segmentation, deformation, gaussian splatting, tracking, 3d gaussian, dynamic, ar, motion, urban scene  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.23988v1.pdf)  
+  Keywords: ar, robotics, localization, high-fidelity, 3d gaussian, slam, survey, efficient, mapping, gaussian splatting, semantic  
+- **[PlanarGS: High-Fidelity Indoor 3D Gaussian Splatting Guided by Vision-Language Planar Priors](https://arxiv.org/abs/2510.23930v1)**  
+  Authors: Xirui Jin, Renbiao Jin, Boying Li, Danping Zou, Wenxian Yu  
+  Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.23930v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://planargs.github.io)  
+  Keywords: segmentation, geometry, face, ar, high-fidelity, 3d gaussian, efficient, gaussian splatting  
 
 
 
